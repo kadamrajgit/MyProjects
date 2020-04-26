@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="webapiModelStoreContainer" CdmEntityContainer="webapiEntities">
+    <EntitySetMapping Name="Mobiles">
+      <EntityTypeMapping TypeName="webapiModel.Mobile">
+        <MappingFragment StoreEntitySet="Mobile">
+          <ScalarProperty Name="MobileID" ColumnName="MobileID" />
+          <ScalarProperty Name="MobileName" ColumnName="MobileName" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

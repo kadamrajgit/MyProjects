@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="webapiEntities-Web.config Connection String" description="webapiEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Mobile.csdl|res://*/Models.Mobile.ssdl|res://*/Models.Mobile.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=rajeshnewdb.database.windows.net;initial catalog=webapi;persist security info=True;user id=rajesh;password=Goapunechiplun@1;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\code\\25\ april\\APIMobille\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='webapiEntities']/@connectionString" />
+  </parameter>
+</parameters>
