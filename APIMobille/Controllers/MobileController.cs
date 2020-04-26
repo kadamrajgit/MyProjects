@@ -34,7 +34,19 @@ namespace APIMobille.Controllers
         }
 
 
-        public HttpResponseMessage PutEmployee(Models.Mobile mobiles)
+        [Route("api/mobile/GetListMobile")]
+        [HttpPost]
+        public List<Models.Mobile> GetListMobile(Models.Mobile m)
+        {
+             
+            return (from c in db.Mobiles.Take(10)
+                    where c.MobileName.StartsWith(m.MobileName) || string.IsNullOrEmpty(m.MobileName)
+                    select c).ToList();
+        }
+    }
+
+
+    public HttpResponseMessage PutEmployee(Models.Mobile mobiles)
         {
             if (!ModelState.IsValid)
             {
