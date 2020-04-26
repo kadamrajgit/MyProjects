@@ -1,0 +1,9 @@
+C:\code\25 april\WinFormMobile\bin\Debug\WinFormMobile.exe.config
+C:\code\25 april\WinFormMobile\bin\Debug\WinFormMobile.exe
+C:\code\25 april\WinFormMobile\bin\Debug\WinFormMobile.pdb
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.csprojAssemblyReference.cache
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.Properties.Resources.resources
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.csproj.GenerateResource.cache
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.exe
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.pdb
+C:\code\25 april\WinFormMobile\obj\Debug\WinFormMobile.Mobile.resources
