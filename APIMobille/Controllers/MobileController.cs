@@ -32,6 +32,7 @@ namespace APIMobille.Controllers
         {
             return db.Mobiles.Where(m => m.CompanyName.Contains(name)).FirstOrDefault();
 
+
         }
 
 
